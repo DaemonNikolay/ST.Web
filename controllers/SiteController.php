@@ -65,6 +65,16 @@ class SiteController extends Controller
     }
 
     /**
+     * Displays homepage.
+     *
+     * @return string
+     */
+    public function actionReadme()
+    {
+        return $this->render('readme');
+    }
+
+    /**
      * Login action.
      *
      * @return Response|string
