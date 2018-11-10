@@ -14,7 +14,7 @@
 1. id (PK, integer);
 2. title (string 100, required);
 3. descriptrion (text, required);
-4. answers (FK->*Answer_for_question{question_id}*, required);
+4. answers (FK->*Answers{question_id}*, required);
 5. type (enum['single', 'multiple', 'its response', 'drop-down menu'], required);
 6. order (integer);
 7. group (FK->*Group_question*);
@@ -24,14 +24,14 @@
 1. id (PK, integer);
 2. name (string 50, required, unique);
 
-## Answer_for_question
+## Answers
 
 1. id (PK, integer);
 2. question_id (FK->*Question*, required);
 3. answer (text, required);
 4. true (bool[false]);
 
-## User_answer_test
+## User_answer
 
 1. id (PK, integer);
 2. question_id (FK->*Question*, required);
@@ -43,5 +43,5 @@
 2. user_id (FK->*User*, required);
 3. test_id(FK->*Test*, required);
 4. mark (integer, required);
-5. percent_true_answers (integer, required);
-6. percent_false_answers (integer, required);
+5. percent_true (integer, required);
+6. percent_false (integer, required);
