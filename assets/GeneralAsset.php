@@ -16,10 +16,24 @@ class GeneralAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'customAsset/general/css/style.css',
+        'https://fonts.googleapis.com/css?family=Questrial',
+        'web/customAssets/general/bootstrap/css/bootstrap.min.css',
+        'web/customAssets/general/themify/themify-icons.css',
+        'web/customAssets/general/css/animate.css',
+        'web/customAssets/general/css/animsition.css',
+        'web/customAssets/general/css/app.css',
+        'web/customAssets/general/css/custom_style.css',
+        'web/customAssets/general/jquery.fullpage.css',
+        'web/customAssets/general/chocolat/css/chocolat.css',
     ];
     public $js = [
-        'customAsset/general/js/script.js',
+        'web/customAssets/general/js/jquery-1.11.3.min.js',
+        'web/customAssets/general/js/query.fullpage.js',
+        'web/customAssets/general/js/animsition.min.js',
+        'web/customAssets/general/js/scroll.js',
+        'web/customAssets/general/js/fastclick.js',
+        'web/customAssets/general/js/app.js',
+        'web/customAssets/general/chocolat/js/jquery.chocolat.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
