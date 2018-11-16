@@ -5,7 +5,7 @@
 1. id (PK, integer);
 2. name (string 50, required, unique);
 3. is_visible (bool[false], required);
-4. type (enum['standard', 'selection k of n'], required);
+4. type (enum['standard', 'selection k of n', 'creative response'], required);
 5. approve (bool[false], required);
 6. random_select (bool[false], required);
 
@@ -15,7 +15,7 @@
 2. title (string 100, required);
 3. descriptrion (text, required);
 4. answers (FK->*Answers{question_id}*, required);
-5. type (enum['single', 'multiple', 'its response', 'drop-down menu'], required);
+5. type (enum['single', 'multiple', 'its response', 'drop-down response'], required);
 6. order (integer);
 7. group (FK->*Group_question*);
 
