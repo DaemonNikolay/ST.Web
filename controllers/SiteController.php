@@ -71,6 +71,8 @@ class SiteController extends Controller
      */
     public function actionReadme()
     {
+        $this->layout = '/general';
+
         return $this->render('readme');
     }
 
