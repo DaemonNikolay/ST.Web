@@ -23,12 +23,12 @@ class GeneralAsset extends AssetBundle
         'web/customAssets/general/css/animsition.css',
         'web/customAssets/general/css/app.css',
         'web/customAssets/general/css/custom_style.css',
-        'web/customAssets/general/jquery.fullpage.css',
+        'web/customAssets/general/css/jquery.fullpage.css',
         'web/customAssets/general/chocolat/css/chocolat.css',
     ];
     public $js = [
         'web/customAssets/general/js/jquery-1.11.3.min.js',
-        'web/customAssets/general/js/query.fullpage.js',
+        'web/customAssets/general/js/jquery.fullpage.js',
         'web/customAssets/general/js/animsition.min.js',
         'web/customAssets/general/js/scroll.js',
         'web/customAssets/general/js/fastclick.js',
@@ -37,6 +37,5 @@ class GeneralAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
     ];
 }
