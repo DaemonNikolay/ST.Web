@@ -135,6 +135,8 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
+        $this->layout = '/testmenu';
+
         return $this->render('about');
     }
 }

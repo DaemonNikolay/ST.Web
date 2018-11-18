@@ -57,6 +57,18 @@ $config = [
         'menu' => [
             'class' => '\pceuropa\menu\Menu',
         ],
+        'rbac' => [
+            'class' => 'mdm\admin\Module',
+            'controllerMap' => [
+                'assignment' => [
+                    'class' => 'mdm\admin\controllers\AssignmentController',
+                    'idField' => 'id',
+                    'usernameField' => 'username',
+                ],
+            ],
+            'layout' => '/site',
+            'mainLayout' => '@app/views/layouts/main.php',
+        ],
     ],
     'params' => $params,
 ];
