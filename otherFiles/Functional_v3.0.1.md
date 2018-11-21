@@ -4,6 +4,31 @@
 
 > Контроллер служит строго для связывания модули и представления. В модели хранить бизнес-логику. В представлении исключительно отображение.
  
+## Список существующих модулей с описанием их возможностей
+
+1. default
+    1. profile
+    2. error
+    3. feedback
+2. rbac
+    1. users
+    2. assignment
+    3. roles
+    4. permissions
+    5. route
+    6. rule
+    7. menu
+3. menu
+4. tests
+    1. passing
+    2. rating
+    3. questions
+    4. statistics
+    5. tests
+5. auth
+    1. login
+    2. signup
+
 ## Краткое описание
 
 1. блог;
