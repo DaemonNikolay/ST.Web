@@ -28,6 +28,18 @@
 5. auth
     1. login
     2. signup
+6. students
+    1. users
+    2. groups
+
+## Список нужных модулей с описанием функционала
+
+1. blog
+    1. news
+    2. instructions (instructions for use)
+2. didactic-materials
+    1. disciplines
+    2. content
 
 ## Краткое описание
 
