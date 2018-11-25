@@ -57,7 +57,7 @@ $config = [
         'menu' => [
             'class' => '\pceuropa\menu\Menu',
         ],
-        'rbac' => [
+        'role-control' => [
             'class' => 'mdm\admin\Module',
             'controllerMap' => [
                 'assignment' => [
